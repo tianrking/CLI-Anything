@@ -143,9 +143,9 @@ cli-anything-libreoffice --json --project p.json writer list
 
 ```bash
 cd agent-harness
-python3 -m pytest cli/tests/test_core.py -v        # Unit tests
-python3 -m pytest cli/tests/test_full_e2e.py -v     # E2E tests (ODF validation)
-python3 -m pytest cli/tests/ -v                      # All tests
+python3 -m pytest cli_anything/libreoffice/tests/test_core.py -v        # Unit tests
+python3 -m pytest cli_anything/libreoffice/tests/test_full_e2e.py -v     # E2E tests (ODF validation)
+python3 -m pytest cli_anything/libreoffice/tests/ -v                      # All tests
 ```
 
 ## Example Workflow

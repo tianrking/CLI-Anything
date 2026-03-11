@@ -179,7 +179,7 @@ cli-anything-shotcut --json --project p.mlt timeline clips 1
 
 ```bash
 cd agent-harness
-python3 -m pytest cli/tests/test_core.py -v
+python3 -m pytest cli_anything/shotcut/tests/test_core.py -v
 ```
 
 ## Example Workflow

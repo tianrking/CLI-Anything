@@ -127,21 +127,21 @@ session history - Show undo history
 
 ```bash
 # From the agent-harness directory:
-python3 -m pytest cli/tests/ -v
+python3 -m pytest cli_anything/obs_studio/tests/ -v
 
 # Unit tests only
-python3 -m pytest cli/tests/test_core.py -v
+python3 -m pytest cli_anything/obs_studio/tests/test_core.py -v
 
 # E2E tests only
-python3 -m pytest cli/tests/test_full_e2e.py -v
+python3 -m pytest cli_anything/obs_studio/tests/test_full_e2e.py -v
 ```
 
 ## Architecture
 
 ```
-cli/
+cli_anything/obs_studio/
 ├── __init__.py
-├── obs_cli.py            # Main CLI entry point (Click + REPL)
+├── obs_studio_cli.py     # Main CLI entry point (Click + REPL)
 ├── core/
 │   ├── __init__.py
 │   ├── project.py        # Project create/open/save/info

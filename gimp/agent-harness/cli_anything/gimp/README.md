@@ -163,9 +163,9 @@ cli-anything-gimp --json --project p.json layer list
 
 ```bash
 cd agent-harness
-python3 -m pytest cli/tests/test_core.py -v        # Unit tests (no images needed)
-python3 -m pytest cli/tests/test_full_e2e.py -v     # E2E tests (creates test images)
-python3 -m pytest cli/tests/ -v                      # All tests
+python3 -m pytest cli_anything/gimp/tests/test_core.py -v        # Unit tests (no images needed)
+python3 -m pytest cli_anything/gimp/tests/test_full_e2e.py -v     # E2E tests (creates test images)
+python3 -m pytest cli_anything/gimp/tests/ -v                      # All tests
 ```
 
 ## Example Workflow

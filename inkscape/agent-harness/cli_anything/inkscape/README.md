@@ -177,24 +177,24 @@ session history - Show undo history
 # From the agent-harness directory:
 
 # Run all tests
-python3 -m pytest cli/tests/ -v
+python3 -m pytest cli_anything/inkscape/tests/ -v
 
 # Run unit tests only
-python3 -m pytest cli/tests/test_core.py -v
+python3 -m pytest cli_anything/inkscape/tests/test_core.py -v
 
 # Run E2E tests only
-python3 -m pytest cli/tests/test_full_e2e.py -v
+python3 -m pytest cli_anything/inkscape/tests/test_full_e2e.py -v
 
 # Run with short traceback
-python3 -m pytest cli/tests/ -v --tb=short
+python3 -m pytest cli_anything/inkscape/tests/ -v --tb=short
 ```
 
 ## Architecture
 
 ```
-cli/
+cli_anything/inkscape/
 ├── __init__.py
-├── __main__.py            # cli-anything-inkscape
+├── __main__.py            # python3 -m cli_anything.inkscape
 ├── inkscape_cli.py        # Main CLI entry point (Click + REPL)
 ├── core/
 │   ├── __init__.py

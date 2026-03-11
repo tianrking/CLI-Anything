@@ -44,13 +44,13 @@ cli-anything-audacity repl
 cd /root/cli-anything/audacity/agent-harness
 
 # All tests
-python3 -m pytest cli/tests/ -v
+python3 -m pytest cli_anything/audacity/tests/ -v
 
 # Unit tests only (no real audio files)
-python3 -m pytest cli/tests/test_core.py -v
+python3 -m pytest cli_anything/audacity/tests/test_core.py -v
 
 # E2E tests (generates real WAV files)
-python3 -m pytest cli/tests/test_full_e2e.py -v
+python3 -m pytest cli_anything/audacity/tests/test_full_e2e.py -v
 ```
 
 ## Command Groups

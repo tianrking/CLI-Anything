@@ -147,21 +147,21 @@ hd720p60, 4k30, 4k60, sd_ntsc, sd_pal
 
 ```bash
 # From the agent-harness directory:
-python3 -m pytest cli/tests/ -v
+python3 -m pytest cli_anything/kdenlive/tests/ -v
 
 # Unit tests only
-python3 -m pytest cli/tests/test_core.py -v
+python3 -m pytest cli_anything/kdenlive/tests/test_core.py -v
 
 # E2E tests only
-python3 -m pytest cli/tests/test_full_e2e.py -v
+python3 -m pytest cli_anything/kdenlive/tests/test_full_e2e.py -v
 ```
 
 ## Architecture
 
 ```
-cli/
+cli_anything/kdenlive/
 ├── __init__.py
-├── __main__.py              # cli-anything-kdenlive
+├── __main__.py              # python3 -m cli_anything.kdenlive
 ├── kdenlive_cli.py          # Main CLI entry point (Click + REPL)
 ├── core/
 │   ├── __init__.py
