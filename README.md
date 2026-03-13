@@ -184,7 +184,7 @@ The command runs as a subtask and follows the same 7-phase methodology as Claude
 
 <details>
 
-<summary><h4 id="-qodercli">⚡ Qodercli</h4></summary>
+<summary><h4 id="-qodercli">⚡ Qodercli <sup><code>Community</code></sup></h4></summary>
 
 **Step 1: Register the Plugin**
 

@@ -184,7 +184,7 @@ cp CLI-Anything/cli-anything-plugin/HARNESS.md .opencode/commands/
 
 <details>
 
-<summary><h4 id="-qodercli">⚡ Qodercli</h4></summary>
+<summary><h4 id="-qodercli">⚡ Qodercli <sup><code>社区贡献</code></sup></h4></summary>
 
 **第一步：注册插件**
 
